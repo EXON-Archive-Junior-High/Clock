@@ -3,24 +3,32 @@
     <head>
     <title>Home</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <div class="js-clock">
-            <h1 id="clock">00:00</h1>
+        <div>
+            <div class="js-clock">
+                <h1 id="clock">00:00</h1>
+            </div>
         </div>
-        <form class="js-form form">
-            <input type="text" placeholder="What is your name" />
-        </form>
-        <h4 class="js-greetings greetings"></h4>
-        <form class="js-toDoForm">
-            <input type="text" placeholder="White a to do">
-        </form>
-        <ul class="js-toDoList">
 
-        </ul>
+        <div class="todo">
+            <form class="js-toDoForm form">
+                <input class="todo-input" type="text" placeholder="White a to do">
+            </form>
 
-        <span class="js-weather"></span>
+            <div class="js-toDoList todo-text"></div>
+        </div>
+
+        <div>
+            <span class="js-weather"></span>
+        </div>
+
+
+
         <script src="clock.js"></script>
         <script src="greetting.js"></script>
         <script src="todo.js"></script>

@@ -1,6 +1,6 @@
 
 *{
-    font-family: 'Noto Sans KR', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -82,4 +82,25 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn .5s linear;
+}
+
+
+
+
+button {
+    color: black;
+    width: 2em;
+    height: 2em;
+    background-color: #ffffff;
+    border: none;
+    color:#fff;
+
+    text-align: center;
+    border-radius:10px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+
+
 }
